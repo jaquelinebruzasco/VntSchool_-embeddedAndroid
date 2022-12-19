@@ -1,0 +1,16 @@
+android_app {
+	name: "MentoriaService",
+    manifest: "AndroidManifest.xml",
+	sdk_version: "current",
+	srcs: [
+		"src/**/*.kt",
+		"src/**/*.aidl",
+	],
+	platform_apis: false,
+        certificate: "platform",
+        optimize: {
+            enabled: false,
+        },
+	product_specific: true,
+	privileged: true,
+}

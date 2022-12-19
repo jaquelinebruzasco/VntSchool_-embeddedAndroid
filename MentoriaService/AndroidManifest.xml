@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="br.org.venturus.mentoriaservice">
+
+	<application>
+		<service
+			android:name="MyService"
+			android:exported="true" />
+	</application>
+</manifest>

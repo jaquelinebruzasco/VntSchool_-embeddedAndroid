@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<permissions>
+	<privapp-permissions package="br.org.venturus.adminreboot">
+		<permission name="android.permission.REBOOT" />
+		<permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+		<permission name="android.permission.MODIFY_DAY_NIGHT_MODE" />
+	</privapp-permissions>
+</permissions>

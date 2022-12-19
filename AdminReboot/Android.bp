@@ -1,0 +1,27 @@
+android_app {
+	name: "AdminReboot",
+	resource_dirs: ["res"],
+	srcs: [
+		"src/**/*.kt",
+	],
+	product_specific: true,
+	privileged: true,
+	platform_apis: true,
+	static_libs: [
+		"androidx.core_core",
+		"androidx.appcompat_appcompat",
+		"com.google.android.material_material",
+		"androidx-constraintlayout_constraintlayout",
+	],
+
+	required: [
+		"privapp-permissions-br-org-venturus-adminreboot.xml",
+	],
+}
+
+prebuilt_etc {
+	name: "privapp-permissions-br-org-venturus-adminreboot.xml",
+	src: "privapp-permissions-br-org-venturus-adminreboot.xml",
+	sub_dir: "permissions",
+	product_specific: true,
+}
